@@ -24,7 +24,11 @@ public class NameInput {
     public static void main(String[] args) {
 
                String name=inputName();
-                recallName(name);
+                if(name!=null)
+               {
+                    recallName(name);
+               }
+                
     }
 
 
